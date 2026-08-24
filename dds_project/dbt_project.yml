@@ -1,0 +1,9 @@
+name: 'confi_dds'
+version: '1.0.0'
+profile: 'dds_project'
+
+model-paths: ["models"]
+
+models:
+  confi_dds:
+    +materialized: incremental

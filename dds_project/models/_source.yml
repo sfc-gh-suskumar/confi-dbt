@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stg
+    database: CONFI_DB
+    schema: STG
+    tables:
+      - name: stg_patients
+      - name: stg_encounters
