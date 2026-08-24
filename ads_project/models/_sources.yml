@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dds
+    database: CONFI_DB
+    schema: DDS
+    tables:
+      - name: dim_patients
+      - name: fct_encounters

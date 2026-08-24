@@ -1,0 +1,10 @@
+stg_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: CONFI_DB
+      schema: STG
+      threads: 8

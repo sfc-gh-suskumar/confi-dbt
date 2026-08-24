@@ -1,0 +1,10 @@
+ads_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: CONFI_DB
+      schema: ADS
+      threads: 8

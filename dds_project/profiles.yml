@@ -1,0 +1,10 @@
+dds_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: CONFI_DB
+      schema: DDS
+      threads: 8
