@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CONFI_DB
+    schema: STG
+    tables:
+      - name: raw_patients
+      - name: raw_encounters

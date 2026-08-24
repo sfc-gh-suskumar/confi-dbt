@@ -1,0 +1,9 @@
+name: 'confi_stg'
+version: '1.0.0'
+profile: 'stg_project'
+
+model-paths: ["models"]
+
+models:
+  confi_stg:
+    +materialized: view
