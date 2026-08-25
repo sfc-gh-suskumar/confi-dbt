@@ -10,3 +10,12 @@ dds_project:
       warehouse: "{{ env_var('DBT_WAREHOUSE') }}"
       schema: DDS
       threads: 4
+    qa:
+      type: snowflake
+      account: ""
+      user: ""
+      role: "{{ env_var('DBT_ROLE') }}"
+      database: "{{ env_var('DBT_DATABASE') }}"
+      warehouse: "{{ env_var('DBT_WAREHOUSE') }}"
+      schema: DDS
+      threads: 4
