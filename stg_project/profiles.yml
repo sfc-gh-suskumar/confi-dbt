@@ -1,4 +1,4 @@
-confi_stg:
+stg_project:
   target: dev
   outputs:
     dev:

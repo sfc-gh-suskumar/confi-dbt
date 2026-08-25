@@ -1,4 +1,4 @@
-confi_ads:
+ads_project:
   target: dev
   outputs:
     dev:
