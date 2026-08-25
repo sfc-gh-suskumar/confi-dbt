@@ -1,4 +1,4 @@
-confi_dds:
+dds_project:
   target: dev
   outputs:
     dev:
